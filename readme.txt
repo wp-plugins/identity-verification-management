@@ -9,7 +9,7 @@ Stable tag: 1.0
 
 == Description ==
 
-Identity Verification management container plugin is providing a simple way to manage all of your verification needs with a single plugin. This plugin allows you to add multiple verifications simply by downloading individual plugins from idenity verification services(IVS) <a href="https://dev.identityverification.com/wordpress_plugins">Store</a> and extend all of your verification needs by using correspnding short codes while managing a single application.
+Identity Verification management container plugin is providing a simple way to manage all of your verification needs with a single plugin. This plugin allows you to add multiple verifications simply by downloading individual plugins from idenity verification services(IVS) <a href="https://dev.identityverification.com/wordpress_plugins" target="_blank">Store</a> and extend all of your verification needs by using corresponding short codes while managing a single application.
 
 Instantly verify:
 
