@@ -3,7 +3,7 @@
 	/**
 	* Plugin Name: Identity Verification Management
 	* Author: Identity Verification Services
-	* Description: This is a verifications management plugin of Identity verification Services(IVS) which will manage all the individual verification plugins. To download the individual plugin open <a href='https://dev.identityverification.com/wordpress_plugins' target='_blank'>Plugins</a> URL. In this management plugin you can activate individual verification plugin and you can know the short codes of each verification plugin. Here you need to enter the API credentials which are common and accessable to all the individual verification plugins. You can get the API credentials by buying the verification products from <a href='https://identityverification.com/' target='_blank'>Identity Verification Website</a>.
+	* Description: identity verification management is a container plugin which will allows you to manage various idenity verification services(IVS) individual plugins like Mobile Phone, Driver Licence, Passport, Social Secuirty Number, Identity document, Face biometric and social media verification.
 	* Author URI: https://profiles.wordpress.org/identity-verification-services
 	* Version:1.0
 	*/
