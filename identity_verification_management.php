@@ -22,12 +22,12 @@
 
 				// Menu
 				add_action("admin_menu",array($this,"IVS_Store_Menu"));
-
+				
 				
 				// Styles
 				add_action("wp_enqueue_scripts",array($this,"ivs_store_styles"));
 				add_action('admin_enqueue_scripts', array($this,'ivs_store_styles'));
-
+				add_action("wp_enqueue_scripts",array($this,"loadAlljs"));
 
 
 			}
