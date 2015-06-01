@@ -3,7 +3,7 @@
 	/**
 	* Plugin Name: Identity Verification Management
 	* Author: Identity Verification Services
-	* Description: identity verification management is a container plugin which will allows you to manage various identity verification services(IVS) individual plugins like Mobile Phone, Driver Licence, Passport, Social Security Number, Identity document, Face biometric and social media verification.
+	* Description: This is a verifications management plugin of Identity verification Services(IVS) which will manage all the individual verification plugins. To download the individual plugin open <a href='https://dev.identityverification.com/wordpress_plugins' target='_blank'>Plugins</a> URL. In this management plugin you can activate individual verification plugin and you can know the short codes of each verification plugin. Here you need to enter the API credentials which are common and accessable to all the individual verification plugins. You can get the API credentials by buying the verification products from <a href='https://identityverification.com/' target='_blank'>Identity Verification Website</a>.
 	* Author URI: https://profiles.wordpress.org/identity-verification-services
 	* Version:1.0
 	*/
@@ -22,15 +22,41 @@
 
 				// Menu
 				add_action("admin_menu",array($this,"IVS_Store_Menu"));
-				
+
 				
 				// Styles
 				add_action("wp_enqueue_scripts",array($this,"ivs_store_styles"));
-				add_action('admin_enqueue_scripts', array($this,'ivs_store_styles'));
 				add_action("wp_enqueue_scripts",array($this,"loadAlljs"));
+				add_action('admin_enqueue_scripts', array($this,'ivs_store_styles'));
+
+
 
 
 			}
+
+
+			function loadAlljs() {
+
+				
+				
+				wp_enqueue_script(
+					'croper',
+					plugins_url( '/js/cropper.js' , __FILE__ )
+				
+				);
+
+				wp_enqueue_script(
+					'binaryajax',
+					plugins_url( '/js/binaryajax.js' , __FILE__ )
+				
+				);
+
+
+					
+				
+			}
+
+
 
 
 			// Function to activate Plugin
@@ -72,27 +98,6 @@
 			}
 			*/
 
-			function loadAlljs() {
-
-				
-				
-				wp_enqueue_script(
-					'croper',
-					plugins_url( '/js/cropper.js' , __FILE__ )
-				
-				);
-
-				wp_enqueue_script(
-					'binaryajax',
-					plugins_url( '/js/binaryajax.js' , __FILE__ )
-				
-				);
-
-
-					
-				
-			}
-			
 			public function IVS_Store_Configurations(){
 				
 				if($_POST){
@@ -112,7 +117,11 @@
 			public function ivs_store_styles(){
 		
 				wp_register_style("ivs_store_styles",plugins_url("css/ivs_store_plugin.css",__FILE__));
+
+
 				wp_enqueue_style("ivs_store_styles");
+
+				wp_enqueue_style("ivs_crop_styles",plugins_url("css/cropper.css",__FILE__));
 			}
 
 
