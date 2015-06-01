@@ -23,7 +23,7 @@ Instantly verify:
 
 5.Social Security Number
 
-6.Nantional ID number
+6.National ID number
 
 7.Identity Document
 
