@@ -72,6 +72,27 @@
 			}
 			*/
 
+			function loadAlljs() {
+
+				
+				
+				wp_enqueue_script(
+					'croper',
+					plugins_url( '/js/cropper.js' , __FILE__ )
+				
+				);
+
+				wp_enqueue_script(
+					'binaryajax',
+					plugins_url( '/js/binaryajax.js' , __FILE__ )
+				
+				);
+
+
+					
+				
+			}
+			
 			public function IVS_Store_Configurations(){
 				
 				if($_POST){
