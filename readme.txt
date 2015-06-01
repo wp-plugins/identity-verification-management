@@ -1,4 +1,4 @@
-=== Identity Verification Services ===
+=== Identity Verification Management ===
 Contributors: identity-verification-services
 Tags: Email,Verification,Email Verification,Identity Verification,Mobile Verification,Document Verification,Face Verification,Document and Face Verification,Australia,UK,United Kindom,USA,Unitede States of America,Driver Licence,Passport, Social Security verification, International Passport (MRZ) Algorithm check, International Passport Algorithm check, International sanctions check, International PEP check, AML Compliance check, Global Identity verification, Global Identity Document verification, Face Biometric verification. 
 authentication, security
@@ -9,8 +9,7 @@ Stable tag: 1.0
 
 == Description ==
 
-Identity Verification Services is providing a simple way to manage all of your verification needs with a single plugin. 
-This plugin allows you to add multiple applications and extend all of your verification needs while managing a single application. 
+Identity Verification management container plugin is providing a simple way to manage all of your verification needs with a single plugin. This plugin allows you to add multiple verifications simply by downloading individual plugins from identity verification services(IVS) <a href="https://dev.identityverification.com/wordpress_plugins" target="_blank">Store</a> and extend all of your verification needs by using corresponding short codes while managing a single application.
 
 Instantly verify:
 
@@ -24,7 +23,7 @@ Instantly verify:
 
 5.Social Security Number
 
-6.Nantional ID number
+6.National ID number
 
 7.Identity Document
 
