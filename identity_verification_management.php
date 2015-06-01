@@ -3,7 +3,7 @@
 	/**
 	* Plugin Name: Identity Verification Management
 	* Author: Identity Verification Services
-	* Description: identity verification management is a container plugin which will allows you to manage various idenity verification services(IVS) individual plugins like Mobile Phone, Driver Licence, Passport, Social Secuirty Number, Identity document, Face biometric and social media verification.
+	* Description: identity verification management is a container plugin which will allows you to manage various identity verification services(IVS) individual plugins like Mobile Phone, Driver Licence, Passport, Social Security Number, Identity document, Face biometric and social media verification.
 	* Author URI: https://profiles.wordpress.org/identity-verification-services
 	* Version:1.0
 	*/
