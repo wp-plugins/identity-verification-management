@@ -51,7 +51,7 @@ body .ivs-bc .setting table.form-table tr td.td-btn{text-align: center;}
 }
 /* Backend IVS Form - End */
 
-.loader_image{position: ABSOLUTE;margin-top: -5%;margin-left: 15%}
+
 .resend_sms{}
 /*.btn,#verify_mcv,#verify_mcv_code{width:150px;cursor:pointer;float:right;border-radius: 5px;padding:10px;font-size: 16px;}*/
 .ivs-btn{float:right;}
@@ -66,7 +66,7 @@ ol li{padding:4px;}
 .title{width:250px;}
 .ui-widget-content{background:#fff !important;}
 
-.loader_image{position: ABSOLUTE;margin-top: -5%;margin-left: 15%}
+
 
 /* Frontend IVS Form - Start 03/03/2015 */
 
